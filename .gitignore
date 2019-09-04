@@ -1,0 +1,8 @@
+library/spring-library-eureka/mvnw.cmd
+library/spring-library-eureka/mvnw
+library/spring-library-eureka/.mvn/
+library/spring-library-zuul/.mvn/
+library/spring-library-eureka/src/test/
+library/spring-library-zuul/src/test/
+library/spring-library-zuul/mvnw
+library/spring-library-zuul/mvnw.cmd
