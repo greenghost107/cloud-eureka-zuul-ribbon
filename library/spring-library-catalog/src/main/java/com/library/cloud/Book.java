@@ -18,12 +18,13 @@ public class Book {
 
 	private String genre;
 
-	private static Object[][] books = { { "To Kill a Mockingbird", "Harper", "Lee", 200, "Fiction" },
-			{ "A Tale of Two Cities", "Charles", "Dickens", 175, "Fiction" },
-			{ "Of Mice and Men", "John", "Steinbeck", 100, "Fiction" }, { "Dracula", "Bram", "Stoker", 174, "Fiction" },
-			{ "The Call of the Wild", "Jack", "London", 225, "Fiction" },
-			{ "Ulysses", "James", "Joyce", 150, "Fiction" } };
-
+	private static Object[][] books = { { "The Lord of the Rings", "John Ronald Reuel", "Tolkien", 9250, "Fantasy" },
+			{ "Harry Potter and the Philosopher's Stone", "Joanne", "Rowling", 336, "Fantasy" },
+			{ "A Song of Ice and Fire", "George R. R.", "Martin", 1056, "Fiction" }, 
+			{ "The Da Vinci Code", "Dan", "Brown", 689, "Fiction" },
+			{ "Angels & Demons", "Dan", "Brown", 616, "Fiction" },
+			{ "Mockingjay", "Suzanne", "Collins", 390, "Adventure Fiction" } };
+	
 	public static List<Book> getBooks() {
 		List<Book> tmpBooks = new ArrayList<Book>();
 		int iteration = 0;
